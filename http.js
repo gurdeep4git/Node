@@ -13,4 +13,5 @@ const server = http.createServer((req, res) => {
     else {
         res.end('Invalid Request!');
     }
-}).listen(5000, () => console.log("Server started"));
+})
+server.listen(5000, () => console.log("Server started"));
