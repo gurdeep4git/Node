@@ -8,4 +8,3 @@ app.get("/users/:id?", (req, res) => {
 });
 
 app.listen("5000", () => console.log("server started"));
-
